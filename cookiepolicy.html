@@ -65,6 +65,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 
+
+	<style>
+		.terms-container{
+			width: 90%;
+			overflow: scroll;
+			height: 100%;
+		}
+		.mobile-container{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				height: 120vh;
+			}
+		@media screen and (max-width:768px) {
+			.terms-container{
+				width: 80% !important;
+				padding: 40px 0;
+			}
+			.mobile-container{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+		}
+	</style>
+
 </head>
 
 <body id="top">
@@ -134,8 +162,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
    	<div class="home-content-table">	
 		   <div class="home-content-tablecell">
-		   	<div class="row">
-		   	    <div class="col-twelve">		   			
+		   	<div class="row mobile-container">
+		   	    <div class="col-twelve terms-container">		   			
 		   		    <h2>Victaman Believe In Building Amazing Experiences</h2>
 				  	<h3>Cookie Policy</h3>
 				  	<p style="color:white ;  text-align:justify">
